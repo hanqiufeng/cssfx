@@ -1,17 +1,13 @@
 <template>
   <div ref="recommend" class="recommend">
-    <a class="nicelinks" href="http://nicelinks.site/?utm_source=cssfx.lovejade.cn">
-      <img
-        class="qrcode"
-        src="https://image.nicelinks.site/nicelinks-miniprogram-code-removebg-preview.png?imageView2/1/w/200/h/200/interlace/1/ignore-error/1"
-        alt="倾城之链"
-      />
+    <a class="nicelinks" href="https://niceshare.site/?ref=cssfx.lovejade.cn">
+      <img class="qrcode" src="https://niceshare.site/apple-touch-icon.png" alt="倾城之链" />
       <div class="desc">
         <div>
-          <p class="title"><strong>倾城之链</strong>，倾心缔造，痴心为你</p>
-          <p>旨在云集全球优秀网站，探索互联网中更广阔的世界；</p>
+          <p class="title"><strong>逍遥自在轩</strong>，个人主页</p>
+          <p>基于 Astro, Starlight, Svelte, Markdown, MDX，TailwindCSS, TypeScript 所构建的个人主页。</p>
         </div>
-        <p>你可以轻松发现、学习、分享更多有用或有趣的事物。</p>
+        <p>🏹 快速、易用、易于访问、高度可定制。</p>
       </div>
     </a>
   </div>
@@ -20,7 +16,7 @@
 <script>
 export default {
   mounted() {
-    this.$nextTick(() => {})
+    this.$nextTick(() => { })
   }
 }
 </script>
@@ -49,10 +45,12 @@ export default {
   text-decoration: none;
   display: flex;
 }
+
 .nicelinks .qrcode {
   width: 100px;
   height: 100px;
 }
+
 .nicelinks .desc {
   width: 400px;
   display: flex;
@@ -62,6 +60,7 @@ export default {
   letter-spacing: 2px;
   padding-left: 15px;
 }
+
 .title {
   font-size: 14px;
 }
